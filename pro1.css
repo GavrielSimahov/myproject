@@ -291,9 +291,11 @@ section {
         flex-direction: column;
     }
 
-   
-    .about .contectBx,
     .about .imgBx {
+       display: none;
+     }
+    .about .contectBx,
+     {
         min-width:100%;
         width: 100%;
         text-align: center;
