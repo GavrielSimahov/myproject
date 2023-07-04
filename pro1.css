@@ -280,18 +280,16 @@ section {
         padding: 40px;
     }
     .banner {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: none;
     }
+    /*
     .banner .contect h2 {
         color: #fff;
         font-size: 2.5em;
     }
     .banner .contect p{
         font-size: 1em;
-    }
+    } */
     .about {
         flex-direction: column;
     }
