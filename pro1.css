@@ -291,10 +291,9 @@ section {
         flex-direction: column;
     }
 
-    .about .imgBx {
-       display: none;
-     }
+    
     .about .contectBx,
+    .about .imgBx
      {
         min-width:100%;
         width: 100%;
@@ -302,6 +301,7 @@ section {
         padding-right: 0px;
     }
     .about .imgBx {
+        top-margin:20px;
         min-height: 250px;
     }
     
