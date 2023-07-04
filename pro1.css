@@ -290,16 +290,19 @@ section {
     .about {
         flex-direction: column;
     }
+
+   
     .about .contectBx,
     .about .imgBx {
         min-width:100%;
-        width: 1000%;
+        width: 100%;
         text-align: center;
         padding-right: 0px;
     }
     .about .imgBx {
         min-height: 250px;
     }
+    */
     .btn {
         margin-bottom: 30px;
     }
