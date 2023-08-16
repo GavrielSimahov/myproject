@@ -1,199 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="index.html" class="brand">Audi r8</a>
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Garage</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#" class="btn">Purchase</a></li>
-            </ul>
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
-        </nav>
-        <div class="header-body">
-            <div>
-                <h1>Join The Journey</h1>
-                <p>
-                   Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. 
-                    Eligendi quos quasi est voluptates!
-                </p>
-            </div>
-        </div>
-    </header>
-
-
-    <sction class="about">
-        <div class="heading">
-            <h2>Take a Jorney,bend space</h2>
-            <p>
-                 Veritatis asperiores ad temporibus 
-                eveniet iste ea perferendis neque vero 
-                consectetur alias, amet, impedit minus,              
-                 eveniet iste ea perferendis neque vero 
-                 consectetur alias, amet, impedit minus,
-                  repellendus sit! 
-            </p>
-        </div>
-        <div class="infos">
-            <div class="info">
-                <img src="assets/image/icon1.png" alt="icon" />
-                <div>
-                    <h3>Agility</h3>
-                    <p>
-                        Build for speed, with a 5.2 liter V10 engine
-                    </p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Landing page lamborghini</title>
+    </head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div class="nav__logo">
+                    FERRARI
                 </div>
-            </div>
-            <div class="info">
-                <img src="assets/image/icon2.png" alt="icon" />
-                <div>
-                    <h3>Performance</h3>
-                    <p>
-                        Accelerating from zero to 60 mph iin 3.2s
-                    </p>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="" class="nav__link">Models</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">Brand</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">Store</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">Experience</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="info">
-                <img src="assets/image/icon3.png" alt="icon" />
-                <div>
-                    <h3>Cutting Edge</h3>
-                    <p>
-                        Sharing half of its parts with the R8 LMS rececar
-                    </p>
+
+                <div class="nav__toggle" id="nav__toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
                 </div>
-            </div>
-        </div>
-    </sction>
+            </nav>
+        </header>
 
-    <section class="specs">
-        <div>
-            <div class="specs-header">
-                <h2>Tech Specs</h2>
-                <span>Engine</span>
-            </div>
-            <ul>
-                <li>
-                    <span>Engine displacement</span>
-                    <span>4025</span>
-                </li>
-                <li>
-                    <span>Maximum Power</span>
-                    <span>601.4 bhb @ 8250 rpm</span>
-                </li>
-                <li>
-                    <span>Maximum torque</span>
-                    <span>540 Nm @ 6500 rpm</span>
-                </li>
-                <li>
-                    <span>Turning radius</span>
-                    <span>5.9 m</span>
-                </li>
-                <li>
-                    <span>No. of cylinders</span>
-                    <span>10</span>
-                </li>
-                <li>
-                    <span>Drive Type</span>
-                    <span>AWD</span>
-                </li>
-                <li>
-                    <span>Turbo Charger</span>
-                    <span>No</span>
-                </li>
-                <li>
-                    <span>Super Charger</span>
-                    <span>Yes</span>
-                </li>
-                <li>
-                    <span>Fuel Supply</span>
-                    <span>Direct injection</span>
-                </li>
-            </ul>
-        </div>
-    </section>
+        <main class="main-home">
+            <div class="home">
+                <h1 class="home__title">FERRARI</h1>
 
+                <div class="home__img">
+                    <img src="assets/img/lamborghini.png" alt="">
+                </div>
 
-    <section class="panels">
-        <div class="panels-sm">
-            <div class="panel">
-                <div>
-                    <div class="icon">
-                        <i class="fas fa-fire"></i>
+                <div class="home__information">
+                    <h2 class="home__subtitle">FERRARI<br>BERLINETA F12</h2>
+                    <p class="home__description">The Ferrari F12berlinetta is a high-performance sports car that was produced by Ferrari from 2012 to 2017.</p>
+                </div>
+
+                <div class="box">
+                    <div class="box__medium box--dark">
+                        <ion-icon name="speedometer-outline" class="icon-box"></ion-icon>
+                        <h3 class="box__medium-title d-inline">3.7</h3>
+                        <span class="box__medium-description d-block">Sec.</span>
+                        <span class="box__medium-detail">0-100 km/h</span>
                     </div>
-                    <h2>Power and speed unleashed</h2>
-                    <a href="#">
-                        <span>Learn more</span>
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="panel"></div>
-            <div class="panel"></div>
-            <div class="panel">
-                <div>
-                    <div class="icon">
-                        <i class="fas fa-tint"></i>
+
+                    <div>
+                        <div class="box__small box--dark">
+                            <ion-icon name="trending-up-outline" class="icon-box icon-box--small"></ion-icon>
+                            <h3 class="box__small-title d-inline">325</h3>
+                            <span class="box__small-description d-block">km/h</span>
+                            <span class="box__small-detail">Top Speed</span>
+                        </div>
+                        <div class="box__small box--dark">
+                            <ion-icon name="car-sport-outline" class="icon-box icon-box--small"></ion-icon>
+                            <h3 class="box__small-title d-inline">8.000</h3>
+                            <span class="box__small-description d-block">r.p.m</span>
+                            <span class="box__small-detail">Power</span>
+                        </div>
                     </div>
-                    <h2>Respectful to enviroment</h2>
                 </div>
             </div>
-        </div>
-        <div class="panel-lg"></div>
-    </section>
+        </main>
 
-    <section class="car-stats">
-        <div class="stats">
-            <div>
-                <h1 
-                    class="counter"
-                    data-target="206"
-                    data-speed="10">0
-                </h1>
-                <h1>kmph</h1>
-                <h5>Top Speed</h5>
-            </div>
-            <div>
-                <h1 
-                    class="counter"
-                    data-target="7"
-                    data-speed="500">0
-                </h1>
-                <h1>gears</h1>
-                <h5>Gear Box</h5>
-            </div>
-            <div>
-                <h1 
-                    class="counter"
-                    data-target="473"
-                    data-speed="1">0
-                </h1>
-                <h1>hp</h1>
-                <h5>Horse Power</h5>
-            </div>
-        </div>
-        <div class="car">
-            <div class="circle">
-                <img src="assets/image/car.png" alt="car">
-                <div class="inner-md-circle"></div>
-                <div class="inner-sm-circle"></div>
-            </div>
-        </div>
-    </section>
+        <!-- ICONOS -->
+        <script  type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+        
+        <!-- MAIN -->
+        <script src="assets/js/main.js"></script>
 
-    <script src="main.js"></script>
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
 
+        <!-- ANIMATION -->
+        <script>
+            /*TITLE Y IMG*/
+            gsap.from('.home__title', {opacity: -1, duration: 1.5, delay:1})
+            gsap.from('.home__img', {opacity: 0, duration: 1, delay:1, x: 100})
+            gsap.from('.home__information', {opacity: 0, duration: 1, delay:1.2, y: -30})
 
-</body>
+            /*BOX*/
+            gsap.from('.box__medium', {opacity: 0, duration: 1.5, delay:1.3, y: -50})
+            gsap.from('.box__small', {opacity: -1, duration: 1.5, delay:1.4, y: -50})
+        </script>
+        
+    </body>
 </html>
